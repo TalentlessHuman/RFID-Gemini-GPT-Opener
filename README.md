@@ -20,7 +20,6 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
 - **Hardware** – Arduino + RFID Module + RFID Tags.
 
 ## 📂 Project Structure
-
 ├── rfid_logic.ino # Arduino code for RFID reader.
 ├── app_launcher.py # Python script to launch apps/websites.
 └── README.md # Project documentation.
@@ -43,8 +42,8 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
 - **GEMINI_URL** = "https://gemini.google.com/" #or any link.
 
 ### 4. Run the Python script:
-```bash
-python app_launcher.py
+   ```bash
+   python app_launcher.py
 
 
 ### 3.Usage
