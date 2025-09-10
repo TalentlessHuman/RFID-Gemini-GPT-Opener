@@ -1,4 +1,4 @@
-# RFID-Gemini-GPT-Opener
+# RFID-Portfolio-Gemini-Opener
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Arduino IDE](https://img.shields.io/badge/Arduino-IDE-green.svg)
@@ -21,9 +21,9 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
 
 ## 📂 Project Structure
 
-├── rfid_logic.ino # Arduino code for RFID reader
-├── app_launcher.py # Python script to launch apps/websites
-└── README.md # Project documentation
+├── rfid_logic.ino # Arduino code for RFID reader.
+├── app_launcher.py # Python script to launch apps/websites.
+└── README.md # Project documentation.
 
 
 ## ⚙️ Setup & Installation
@@ -38,11 +38,12 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
    ```bash
    pip install pyserial
 
-## Edit app_launcher.py if you want to change URLs:
-PORTFOLIO_URL = "https://your-portfolio-link.com" #or any link
-GEMINI_URL = "https://gemini.google.com/" #or any link
+### 3. Edit app_launcher.py if you want to change URLs:
+- **PORTFOLIO_URL** = "https://your-portfolio-link.com" #or any link.
+- **GEMINI_URL** = "https://gemini.google.com/" #or any link.
 
-## Run the Python script:
+### 4. Run the Python script:
+```bash
 python app_launcher.py
 
 
