@@ -20,10 +20,9 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
 - **Hardware** – Arduino + RFID Module + RFID Tags.
 
 ## 📂 Project Structure
-├── rfid_logic.ino # Arduino code for RFID reader.
-├── app_launcher.py # Python script to launch apps/websites.
-└── README.md # Project documentation.
-
+├── rfid_logic.ino      # Arduino code for RFID reader
+├── app_launcher.py     # Python script to launch apps/websites
+└── README.md           # Project documentation
 
 ## ⚙️ Setup & Installation
 
@@ -38,27 +37,27 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
    pip install pyserial
 
 ### 3. Edit app_launcher.py if you want to change URLs:
-- **PORTFOLIO_URL** = "https://your-portfolio-link.com" #or any link.
-- **GEMINI_URL** = "https://gemini.google.com/" #or any link.
+- **PORTFOLIO_URL** = "https://your-portfolio-link.com" #or any link
+- **GEMINI_URL** = "https://gemini.google.com/" #or any link
 
 ### 4. Run the Python script:
+1. Run the Python script:
    ```bash
-   python app_launcher.py
+   pip install pyserial
 
-
-### 3.Usage
+### 5.Usage
 - # 1. Connect Arduino with RFID module.
 - # 2. Run the Python script.
 - # 3. Scan RFID cards:
     - Admin card → Opens your portfolio.
     - Other token → Opens Gemini (or other assigned apps/websites).
 
-### 🖼️ Demo Flow
-- # 1. Arduino detects RFID card.
-- # 2. Sends command like OPEN_PORTFOLIO or OPEN_GEMINI to computer.
-- # 3. Python script receives command and launches the mapped website.
+## 🖼️ Demo Flow
+- 1. Arduino detects RFID card.
+- 2. Sends command like OPEN_PORTFOLIO or OPEN_GEMINI to computer.
+- 3. Python script receives command and launches the mapped website.
 
-### 🧩 Customization
+## 🧩 Customization
 - Modify rfid_logic.ino to send different commands for different RFID tags.
 - Update app_launcher.py to open different applications/websites.
 
