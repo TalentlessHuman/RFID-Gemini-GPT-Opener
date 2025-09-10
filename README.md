@@ -45,10 +45,10 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
    ```bash
    pip install pyserial
 
-### 5.Usage
-- # 1. Connect Arduino with RFID module.
-- # 2. Run the Python script.
-- # 3. Scan RFID cards:
+## 🧑‍💻 Usage
+- 1. Connect Arduino with RFID module.
+- 2. Run the Python script.
+- 3. Scan RFID cards:
     - Admin card → Opens your portfolio.
     - Other token → Opens Gemini (or other assigned apps/websites).
 
@@ -58,6 +58,6 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
 - 3. Python script receives command and launches the mapped website.
 
 ## 🧩 Customization
-- Modify rfid_logic.ino to send different commands for different RFID tags.
-- Update app_launcher.py to open different applications/websites.
+- Modify `rfid_logic.ino` to send different commands for different RFID tags.
+- Update `app_launcher.py` to open different applications/websites.
 
