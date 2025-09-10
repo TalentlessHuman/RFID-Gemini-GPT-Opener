@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Arduino IDE](https://img.shields.io/badge/Arduino-IDE-green.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This project integrates **Arduino with RFID** and a **Python desktop script** to automatically launch applications or websites when specific RFID cards or tokens are scanned.  
 
@@ -20,9 +19,11 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
 - **Hardware** – Arduino + RFID Module + RFID Tags.
 
 ## 📂 Project Structure
+```
 ├── rfid_logic.ino      # Arduino code for RFID reader
 ├── app_launcher.py     # Python script to launch apps/websites
 └── README.md           # Project documentation
+```
 
 ## ⚙️ Setup & Installation
 
@@ -60,4 +61,6 @@ This project integrates **Arduino with RFID** and a **Python desktop script** to
 ## 🧩 Customization
 - Modify `rfid_logic.ino` to send different commands for different RFID tags.
 - Update `app_launcher.py` to open different applications/websites.
+
+## 👤 Author: [Bikram Soren](https://bikramsoren.vercel.app)
 
